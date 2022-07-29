@@ -1,3 +1,7 @@
+#e::Return
+
+#d::Return
+
 #x::Run Explorer
 
 #b::Run msedge
