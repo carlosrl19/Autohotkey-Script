@@ -4,6 +4,8 @@
 
 #x::Run Explorer
 
+#+t::Run Taskmgr
+
 #b::Run msedge
 
 #+q:: ; Windows and C closes active window
