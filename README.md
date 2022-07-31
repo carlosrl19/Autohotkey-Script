@@ -3,6 +3,7 @@
 - Download AutoHotkey here: https://www.autohotkey.com/
 <br><H3>AutoHotKeys bindsym</H3>
 - `Win+b` Open Edge
+- `Win+Shift+t` Open Task manager
 - `Win+x` Open Explorer
 - `Win+#` Open virtual workspace
 - `Win+E` and `Win+D` were "delete"
