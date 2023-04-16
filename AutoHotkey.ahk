@@ -6,7 +6,7 @@
 
 #+t::Run Taskmgr
 
-#b::Run msedge
+#b::Run Brave
 
 #+q:: ; Windows and C closes active window
 WinGetTitle, Title, A
