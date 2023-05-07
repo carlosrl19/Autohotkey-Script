@@ -2,11 +2,18 @@
 
 #d::Return
 
+^+#b::Return
+
 #x::Run Explorer
 
 #+t::Run Taskmgr
 
 #b::Run Brave
+
+; Restart DWM
+#+r::
+   Send, {Ctrl Down}{Shift Down}{LWin Down}{b}{Ctrl Up}{Shift Up}{LWin Up}
+Return
 
 #+q:: ; Windows and C closes active window
 WinGetTitle, Title, A
