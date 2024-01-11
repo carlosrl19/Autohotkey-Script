@@ -1,24 +1,48 @@
+; P R O G R A M S   K E Y B I N D S  D I S A B L E D
+
 #e::Return
-
 #d::Return
-
 ^+#b::Return
 
+
+; P R O G R A M S   K E Y B I N D S
+
 #x::Run Explorer
-
 #+t::Run Taskmgr
-
 #b::Run Brave
 
-; Restart DWM
-#+r::
+
+; W I N D O W  M A N A G E R
+
+#+r:: ; Reload Window Manager
    Send, {Ctrl Down}{Shift Down}{LWin Down}{b}{Ctrl Up}{Shift Up}{LWin Up}
 Return
 
-#+q:: ; Windows and C closes active window
+#+q:: ; Windows close
 WinGetTitle, Title, A
 PostMessage, 0x112, 0xF060,,, %Title%
 return
+
+#f::WinMaximize, A  ; Maximizar ventana
+
+#G::Send #{Down}  ; Minimizar ventana
+
+
+; M E D I A  P L A Y E R  K E Y B I N D S
+
+^Home::Send {Media_Play_Pause}
+^PGUP::Send {Media_Next}
+^PGDN::Send {Media_Prev}
+
+
+
+; S C R E E N S H O O T S  K E Y B I N D S
+
+PrintScreen::Send #+s
+
+
+
+; V I R T U A L  W O R K S P A C E S  K E Y B I N D S
 
 ; Globals
 DesktopCount = 2 ; Windows starts with 2 desktops at boot
