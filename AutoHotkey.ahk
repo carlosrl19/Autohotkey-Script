@@ -30,10 +30,9 @@ return
 
 ; M E D I A  P L A Y E R  K E Y B I N D S
 
-^Home::Send {Media_Play_Pause}
-^PGUP::Send {Media_Next}
-^PGDN::Send {Media_Prev}
-
+!c::Send {Media_Play_Pause}
+!x::Send {Media_Next}
+!z::Send {Media_Prev}
 
 
 ; S C R E E N S H O O T S  K E Y B I N D S
