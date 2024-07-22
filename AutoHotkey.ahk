@@ -10,7 +10,9 @@
 #x::Run Explorer
 #+t::Run Taskmgr
 #b::Run Brave
-
+#t::
+Run, "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MariaDB 11.3 (x64)\MySQL Client (MariaDB 11.3 (x64)).lnk" -u root -p
+return
 
 ; W I N D O W  M A N A G E R
 
