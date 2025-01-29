@@ -35,7 +35,8 @@ return
 !c::Send {Media_Play_Pause}
 !x::Send {Media_Next}
 !z::Send {Media_Prev}
-
+!b::Send {Volume_Up}
+!v::Send {Volume_Down}
 
 ; S C R E E N S H O O T S  K E Y B I N D S
 
